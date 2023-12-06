@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fa7257, #fc63a7, to left);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #ffffff;
+  height: 10vh;
+  width: 30vw;
+  border-radius: 10px;
+  color: #000000;
+}
+.new-button {
+  color: #000000;
+  background-color: #ffffff;
+  height: 20vh;
+  width: 40vw;
+  border-radius: 10px;
+}
